@@ -1,6 +1,7 @@
 # Estudos Dev Web
 Repositório destinado aos meus projetos de estudos em desenvolvimento web, visando aprofundar meus conhecimentos em diferentes partes. O repositório possui o seguinte mapa de acesso: 
 
+´
 estudos-dev-web/
 │
 ├── 01-front-end-fundamentos/
@@ -19,3 +20,4 @@ estudos-dev-web/
 │   └── 03-api-completa/
 │
 └── README.md            
+´
