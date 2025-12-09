@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sobre entendimento de formularios em html">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <section>
+        <h2>Prancheta Medica</h2>
+
+        <h3> > Dados agrupados com fieldset</h3>
+        <form action="vazio">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <label>Nome:</label>
+                <input type="text">
+
+                <br><br>
+
+                <label>Email:</label>
+                <input type="email">
+
+                <br><br>
+                <label>CPF:</label>
+                <input type="text">
+            </fieldset>
+        </form>
+
+        <h3> > Dados sem agrupamento</h3>
+        <form>
+            <label>Nome: </label>
+            <input type="text" title="Digite seu nome"> 
+
+            <br><br>
+            
+            <label>CPF: </label>
+            <input type="text" title="Digite seu cpf">
+        </form>
+
+        <h3>Formulario misturado</h3>
+        <p>Nesse caso, percebemos que o fieldset é importante diante do contexto que ele é inserido! Abaixo criei um híbrido para treinamento</p>
+
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <label>Nome: </label>
+                <input type="text" placeholder="Insira seu nome completo">
+
+                <br><br>
+
+                <label>Sobrenome</label>
+                <input type="text" placeholder="Sobrenome completo">
+
+                <br><br>
+
+                <label>Idade</label>
+                <input type="text" placeholder="insira uma idade valida">
+
+                <br><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Contato</legend>
+
+                <label>Telefone: </label>
+                <input type="text" placeholder="(99)9999-9999">
+
+                <label>Email: </label>
+                <input type="text"  placeholder="seuemail@gmail.com">
+            </fieldset>
+
+            <br><br>
+
+            <label>FAQ (Deixe sua reclamação): </label>
+            <input type="text" placeholder="*opcional">
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+    
+</body>
+</html>
