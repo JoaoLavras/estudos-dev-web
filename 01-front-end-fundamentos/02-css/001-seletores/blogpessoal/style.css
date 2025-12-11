@@ -2,17 +2,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+body {
+  background-color:rgb(249, 238, 238)
+}
+
+header{
+  background-color: rgba(165, 42, 42, 0.274);
+}
+
 h1 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  color: brown;
 }
 
 h2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
+  color: brown
 }
 
 nav {
@@ -20,6 +30,16 @@ nav {
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  background-color: brown;
+}
+
+nav a{
+  color: rgb(255, 255, 255);
+  text-decoration:overline;
+}
+
+nav#menu a:hover{
+  color: rgb(250, 127, 86);
 }
 
 p {
@@ -27,7 +47,35 @@ p {
   text-align: justify;
 }
 
-#descricao{
+.descricao{
   text-align: center;
 }
 
+.card-explicativo {
+  background-color: rgba(228, 179, 123, 0.16);
+}
+
+article {
+  background-color: rgba(255, 127, 80, 0.475);
+}
+
+footer{
+  text-align: center;
+}
+
+.footer-postagem {
+  color: rgb(123, 123, 123);
+  text-align: left;
+  font-style: italic;
+}
+
+.card-profissional{
+/*Terminar esse aqui depois*/
+}
+
+#foto-aura{
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
