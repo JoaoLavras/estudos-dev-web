@@ -8,16 +8,7 @@ estudos-dev-web/
 │   ├── 01-html/        
 │   ├── 02-css/
 │   ├── 03-javascript/
-│   └── 04-projetos/      
-│
-├── 02-front-end-moderno/
-│   ├── 01-react-conceitos/
-│   └── 02-projetos-react/
-│
-├── 03-back-end/
-│   ├── 01-node-express/
-│   ├── 02-banco-dados/
-│   └── 03-api-completa/
-│
+│   └── 04-projetos/
+│   
 └── README.md            
 
