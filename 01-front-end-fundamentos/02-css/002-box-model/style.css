@@ -1,0 +1,26 @@
+#linux-div {
+    background-color: rgba(20, 248, 43, 0.776);
+    text-align: center;
+    height: 200px;
+    width: 400px;
+}
+
+#linux-paragrafo {
+    background-color: aquamarine;
+    height: 100px;
+    width: 180px;
+}
+
+#texto-padding { 
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+#texto-border {
+    text-align: center;
+    border: 15px;
+    border-style: solid; /*tem que botar isso pra ele aparecer*/
+    border-color: blueviolet;
+}
+
