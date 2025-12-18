@@ -1,0 +1,99 @@
+/*CONFIGURAÇÕES GERAIS*/
+
+body, ul, li, p, a {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+} 
+
+#imagem-destaque {
+    width: 500px;
+    height: auto;
+}
+
+#imagem-subdestaque {
+    width: 357px;
+    height: 300px;
+}
+
+.imagem-outros {
+    width: 299px;
+    height: 148px;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/*CONFIGURAÇÕES DO HEADER*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    border-style: solid;
+}
+
+#menu {
+    display: flex;
+}
+
+#menu li{
+    margin: 10px;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+#logo {
+    margin: 0px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 33px;
+}
+
+/*CONFIGURAÇÕES DO MAIN*/
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+section {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.destaque{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#caixa-topico{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+#caixa-subdestaques {
+    display: flex;
+}
+
+.sub-destaque {
+    display: flex;
+    flex-direction: row;
+}

@@ -6,15 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Um site de noticias online">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
 
     <header>
-        <h1>The Guardian</h1>
         <nav>
-            <ul>
+            <ul id="menu">
                 <li><a href="#">News</a></li>
                 <li><a href="#">Opinion</a></li>
                 <li><a href="#">Sport</a></li>
@@ -22,75 +26,84 @@
                 <li><a href="#">Lifestyle</a></li>
             </ul>
         </nav>
+        <h1 id="logo">The<br>Guardian</h1>
     </header>
 
 
     <main>
-        <h2 id="topico">Sport</h2>
-        <section class="destaque">
-            <img src="images/jogadores.png" alt="jogadores lado a lado">
-            <div class="noticia">
-                <p class="subtema">Football</p>
-                <h2 class="manchete">The 100 best male footballers in the world 2025-Nos100-71</h2>
-                <p class="description-manchete">Arda Guller Nick Woltemade and Rafael Leão are all among the first 30
-                    players as we start our countdown to this year's list</p>
-                <p class="time-posted">5h Ago</p>
-                <hr>
-                <p>The top 100 How the Guardian ranked the bestmale players in the world in 2025</p>
-            </div>
-        </section>
+        <div class="caixa-topico">
+            <h2 id="topico">Sport</h2>
+        </div>
 
-        <section class="destaque">
-            <img src="images/jonathan.png" alt="Foto de Jonathan Liew ">
-            <div class="noticia">
-                <p class="subtema">Darts</p>
-                <h2 class="manchete">'From pubs to the Palace': Jonathan Liew at the PDC World Championsships</h2>
-                <p class="description-manchete">Jonathan Liew visits the World Darts Championships at Alexandra Palace to
-                    explore how the game went from the working men's clubs to the world stage and what the next 10 years
-                    looks like</p>
-                <button>Play Video</button>
-                <hr>
-                <div class="rodape-destaque-principal">
-                    <p><a href="#">Darts</a>Menzies cracks the cauldron as darts faces an uncomfortable truth</p>
-                    <p><a href="#">Darts</a> Menzies outs hand open punching drinks stand after shock defeat</p>
-                    <p><a href="#">Sport In Focus</a>Sing Up to our newsletter with the week's best photos</p>
-                </div>
-            </div>
-        </section>
-
-        <section>
+        <div class="caixa-noticias">
             <section class="destaque">
-                <img src="images/jogador-manchester.png" alt="jogador do Manchester">
+                <img id="imagem-destaque" src="images/jogadores.png" alt="jogadores lado a lado">
                 <div class="noticia">
-                    <p class="subtema">Manchester United</p>
-                    <h2 class="manchete">Fernandes hits out at directors who 'wanted me to leave'</h2>
-                    <p class="time-posted">25m ago</p>
-                    <div class="rodape-destaque">
-                        <hr>
-                        <p><a href="#">Football Weekly</a>Game of the season at Old Trafford and the latest from the EFL</p>
-                        <hr>
-                        <p><a href="#">Man Utd 4-4 Bourmemouth Amorim backs defenders after eight-goal thriller</a></p>
-                    </div>
+                    <p class="subtema">Football</p>
+                    <h2 class="manchete">The 100 best male footballers in the world 2025-Nos100-71</h2>
+                    <p class="description-manchete">Arda Guller Nick Woltemade and Rafael Leão are all among the first
+                        30
+                        players as we start our countdown to this year's list</p>
+                    <p class="time-posted">5h Ago</p>
+                    <hr>
+                    <p>The top 100 How the Guardian ranked the bestmale players in the world in 2025</p>
                 </div>
-
             </section>
-
             <section class="destaque">
-                <img src="images/jogadores-azul.png" alt="dois jogadores de azul comemorando">
+                <img id="imagem-subdestaque" src="images/jonathan.png" alt="Foto de Jonathan Liew ">
                 <div class="noticia">
-                    <p class="subtema">The Breakdown</p>
-                    <h2 class="manchete">Storming ahead means increasingly little in era of rugby's comeback kings</h2>
-                    <button id="newsletter">newsletter</button>
-                    <div class="rodape-destaque">
-                        <hr>
-                        <p><a href="#">Champions Cupr</a> hendy hat-trick helps Northamption to stroll against Bulls</p>
-                        <hr>
-                        <p><a href="#">The Breakdown</a> Sign up for our free rugby union newsletter</p>
+                    <p class="subtema">Darts</p>
+                    <h2 class="manchete">'From pubs to the Palace': Jonathan Liew at the PDC World Championsships</h2>
+                    <p class="description-manchete">Jonathan Liew visits the World Darts Championships at Alexandra
+                        Palace to
+                        explore how the game went from the working men's clubs to the world stage and what the next 10
+                        years
+                        looks like</p>
+                    <button>Play Video</button>
+                    <hr>
+                    <div class="rodape-destaque-principal">
+                        <p><a href="#">Darts</a>Menzies cracks the cauldron as darts faces an uncomfortable truth</p>
+                        <p><a href="#">Darts</a> Menzies outs hand open punching drinks stand after shock defeat</p>
+                        <p><a href="#">Sport In Focus</a>Sing Up to our newsletter with the week's best photos</p>
                     </div>
                 </div>
             </section>
+            <section id="caixa-subdestaques">
+                <section class="sub-destaque">
+                    <img class="imagem-outros" src="images/jogador-manchester.png" alt="jogador do Manchester">
+                    <div class="noticia">
+                        <p class="subtema">Manchester United</p>
+                        <h2 class="manchete">Fernandes hits out at directors who 'wanted me to leave'</h2>
+                        <p class="time-posted">25m ago</p>
+                        <div class="rodape-destaque">
+                            <hr>
+                            <p><a href="#">Football Weekly</a>Game of the season at Old Trafford and the latest from the
+                                EFL</p>
+                            <hr>
+                            <p><a href="#">Man Utd 4-4 Bourmemouth Amorim backs defenders after eight-goal thriller</a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="sub-destaque">
+                    <img class="imagem-outros" src="images/jogadores-azul.png" alt="dois jogadores de azul comemorando">
+                    <div class="noticia">
+                        <p class="subtema">The Breakdown</p>
+                        <h2 class="manchete">Storming ahead means increasingly little in era of rugby's comeback kings
+                        </h2>
+                        <button id="newsletter">newsletter</button>
+                        <div class="rodape-destaque">
+                            <hr>
+                            <p><a href="#">Champions Cupr</a> hendy hat-trick helps Northamption to stroll against Bulls
+                            </p>
+                            <hr>
+                            <p><a href="#">The Breakdown</a> Sign up for our free rugby union newsletter</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
 
-        </section>
     </main>
 
 
