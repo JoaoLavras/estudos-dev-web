@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Merienda:wght@300..900&family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    text-align: center;
+    font-family: "Cousine", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dark-mode {
+    background-color: rgb(14, 19, 46);
+
+    h1 {
+        color: rgb(169, 225, 1);
+    }
+
+    p {
+        color: burlywood;
+    }
+
+    button {
+        background-color: rgb(204, 247, 12);
+        color: rgb(51, 0, 255);
+    }
+}
