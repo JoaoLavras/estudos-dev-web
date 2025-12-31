@@ -12,6 +12,7 @@ body {
 #corpo-calculadora{
     background-color: rgb(192, 119, 30);
     padding: 10px;
+    margin: 100px;
 }
 
 #tela {
@@ -34,4 +35,12 @@ body {
     margin: 10px;
     padding: 40px;
     cursor: pointer;
+    font-size: x-large;
+}
+
+#btn-apagar{
+    border-style: groove;
+    border-radius: 20px;
+    background-color: rgb(233, 208, 68);
+    padding: 20px;
 }
