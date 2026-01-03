@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    min-height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Inter", sans-serif;
+    color: aliceblue;
+    background-color: coral;
+}
+
+
+fieldset {
+    background-color: rgb(85, 85, 211);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset input{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    width: 100%;
+}
+
+fieldset input:required{
+    border: 2px solid rgb(229, 255, 0)
+}
+
+fieldset input:required:invalid{
+    background-color: rgb(235, 202, 202);
+}
+
+fieldset input:required:valid{
+    background-color: rgb(217, 248, 187);
+}
+
+
+#btn-enviar{
+    align-self: center;
+    margin-top: 20px;
+}
+
+.mensagem-erro{
+    align-self: center;
+    font-weight: bolder;
+    color: rgb(249, 75, 72);
+}
+
+#erro-tudo-vazio{
+    padding: 10px;
+}

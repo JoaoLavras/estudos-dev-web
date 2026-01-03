@@ -1,1 +1,53 @@
-<!--fazer o projeto formulario de verificação-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="vazio">
+        <fieldset>
+            
+        <span id="erro-tudo-vazio" class="mensagem-erro"></span>
+
+            <div class="bloco-preenchimento">
+                <label>Nome:</label>
+                <input id="input-nome" type="text" placeholder="Digite seu nome completo" required>
+                <span id="erro-nome" class="mensagem-erro"></span>
+            </div>
+
+            <br>
+
+            <div class="bloco-preenchimento">
+                <label>CPF:</label>
+                <input id="input-cpf" type="text" placeholder="11 dígitos" required minlength="11" maxlength="11">
+                <span id ="erro-cpf" class="mensagem-erro"></span>
+
+            </div>
+
+            <br>
+
+            <div class="bloco-preenchimento">
+                <label>Telefone:</label>
+                <input id="input-telefone" type="text" placeholder="DDD + NUMERO" required minlength="11" maxlength="11">
+                <span id="erro-telefone" class="mensagem-erro"></span>
+            </div>
+
+            <br>
+
+            <div class="bloco-preenchimento">
+                <label>Email:</label>
+                <input id="input-email" type="text" placeholder="nome@gmail.com" minlength="4">
+                <span id="erro-email" class="mensagem-erro"></span>
+            </div>
+
+            <button type="submit" id="btn-enviar">Enviar</button>
+        </fieldset>
+    </form>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html> 
